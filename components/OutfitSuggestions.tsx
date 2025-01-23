@@ -3,6 +3,9 @@
 import { useState, useEffect } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import OutfitCreator from "./outfit-creator"
+import Wardrobemini from "./Wardrobe-mini"
+import GeneratedOutfits from "./generated-outfits"
 
 interface WardrobeItem {
   _id: string
@@ -41,7 +44,7 @@ export default function OutfitSuggestions() {
   return (
     <div className="mt-8">
       <h2 className="text-2xl font-bold mb-4">Outfit Suggestions</h2>
-      <Button onClick={generateOutfit}>Generate Outfit</Button>
+      {/* <Button onClick={generateOutfit}>Generate Outfit</Button> */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
         {outfit.map((item) => (
           <Card key={item._id}>
@@ -59,7 +62,14 @@ export default function OutfitSuggestions() {
           </Card>
         ))}
       </div>
+  
+     <Wardrobemini filters={{ category: '', color: '', season: '' }} />
+
+     {/* <OutfitCreator /> */}
+
+     <GeneratedOutfits />
+
+
     </div>
   )
 }
-
