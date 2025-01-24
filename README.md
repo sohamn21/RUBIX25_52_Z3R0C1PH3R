@@ -34,26 +34,6 @@ The **Fashion AI Wardrobe Assistant** is an innovative application designed to h
 
 ---
 
-## Folder Structure
-
-├── public/
-│   └── images/         
-├── src/
-│   ├── components/      
-│   ├── pages/           
-│   │   ├── api/       
-│   │   ├── wardrobe/   
-│   │   ├── shop/       
-│   │   └── index.js     
-│   ├── styles/          
-│   ├── utils/           
-│   └── hooks/           
-├── .env.local         
-└── package.json        
-
-
----
-
 ## Setup Instructions
 
 ### 1. Clone the Repository
