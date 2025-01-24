@@ -37,19 +37,19 @@ The **Fashion AI Wardrobe Assistant** is an innovative application designed to h
 ## Folder Structure
 
 ├── public/
-│   └── images/          # Static images and assets
+│   └── images/         
 ├── src/
-│   ├── components/      # Reusable React components
-│   ├── pages/           # Next.js pages
-│   │   ├── api/         # API routes (server-side logic)
-│   │   ├── wardrobe/    # Wardrobe management pages
-│   │   ├── shop/        # Smart shopping recommendations
-│   │   └── index.js     # Home page
-│   ├── styles/          # CSS or Tailwind styles
-│   ├── utils/           # Helper functions
-│   └── hooks/           # Custom React hooks
-├── .env.local           # Environment variables
-└── package.json         # Project dependencies
+│   ├── components/      
+│   ├── pages/           
+│   │   ├── api/       
+│   │   ├── wardrobe/   
+│   │   ├── shop/       
+│   │   └── index.js     
+│   ├── styles/          
+│   ├── utils/           
+│   └── hooks/           
+├── .env.local         
+└── package.json        
 
 
 ---
